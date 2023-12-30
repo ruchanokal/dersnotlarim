@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/s"
+    app:startDestination="@id/signInModeFragment">
+
+    <fragment
+        android:id="@+id/signInModeFragment"
+        android:name="com.ders.notlarim.fragments.SignInModeFragment"
+        android:label="fragment_sign_in_mode"
+        tools:layout="@layout/fragment_sign_in_mode" >
+        <action
+            android:id="@+id/action_signInModeFragment_to_stuSignInFragment"
+            app:destination="@id/stuSignInFragment" />
+        <action
+            android:id="@+id/action_signInModeFragment_to_teacherSignInFragment"
+            app:destination="@id/teacherSignInFragment" />
+        <action
+            android:id="@+id/action_signInModeFragment_to_adminSignInFragment"
+            app:destination="@id/adminSignInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/stuSignInFragment"
+        android:name="com.ders.notlarim.fragments.StuSignInFragment"
+        android:label="fragment_stu_sign_in"
+        tools:layout="@layout/fragment_stu_sign_in" >
+        <action
+            android:id="@+id/action_stuSignInFragment_to_stuSignUpFragment"
+            app:destination="@id/stuSignUpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/teacherSignInFragment"
+        android:name="com.ders.notlarim.fragments.TeacherSignInFragment"
+        android:label="fragment_teacher_sign_in"
+        tools:layout="@layout/fragment_teacher_sign_in" >
+        <action
+            android:id="@+id/action_teacherSignInFragment_to_teacherSignUpFragment"
+            app:destination="@id/teacherSignUpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/teacherSignUpFragment"
+        android:name="com.ders.notlarim.fragments.TeacherSignUpFragment"
+        android:label="fragment_teacher_sign_up"
+        tools:layout="@layout/fragment_teacher_sign_up" />
+    <fragment
+        android:id="@+id/stuSignUpFragment"
+        android:name="com.ders.notlarim.fragments.StuSignUpFragment"
+        android:label="fragment_stu_sign_up"
+        tools:layout="@layout/fragment_stu_sign_up" />
+    <fragment
+        android:id="@+id/adminSignInFragment"
+        android:name="com.ders.notlarim.fragments.AdminSignInFragment"
+        android:label="fragment_admin_sign_in"
+        tools:layout="@layout/fragment_admin_sign_in" />
+</navigation>

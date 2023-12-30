@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Ders Notlarım</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="adinizi_soyadinizi_giriniz">Adınızı Soyadınızı Giriniz</string>
+    <string name="ogrenci_kayit">Öğrenci Kayıt</string>
+    <string name="e_mail_adresinizi_giriniz">E-mail adresinizi giriniz</string>
+    <string name="sifrenizi_giriniz">Şifrenizi giriniz..</string>
+    <string name="sifrenizi_tekrar_giriniz">Şifrenizi tekrar giriniz</string>
+    <string name="kayit_ol">Kayıt Ol</string>
+    <string name="ogretmen_girisi">Öğretmen Girişi</string>
+    <string name="ogrenci_girisi">Öğrenci Girişi</string>
+    <string name="giris_yap">Giriş Yap</string>
+    <string name="bir_hesabiniz_yok_mu">Bir hesabınız yok mu?</string>
+    <string name="kullanici">Kullanıcı Adı</string>
+    <string name="dokuman_ekle">Döküman Ekle</string>
+    <string name="admin_girisi">Admin Girişi</string>
+</resources>

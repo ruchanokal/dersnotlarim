@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.StuSignUpFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/studentTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:text="@string/ogrenci_kayit" />
+
+
+        <EditText
+            android:id="@+id/editTextNameSurnameSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/emailpasswordborder"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:drawablePadding="12dp"
+            android:ems="14"
+            android:fontFamily="@font/montserrat"
+            android:hint="@string/adinizi_soyadinizi_giriniz"
+            android:inputType="text"
+            android:paddingStart="12dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="#B7B6B6"
+            android:textSize="17sp" />
+
+
+        <EditText
+            android:textColor="@color/black"
+            android:id="@+id/editTextEmailSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/emailpasswordborder"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:drawablePadding="12dp"
+            android:ems="14"
+            android:inputType="textEmailAddress"
+            android:fontFamily="@font/montserrat"
+            android:textColorHint="#B7B6B6"
+            android:hint="@string/e_mail_adresinizi_giriniz"
+            android:paddingStart="12dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="10dp"
+            android:textSize="17sp" />
+
+        <EditText
+            android:textColor="@color/black"
+            android:id="@+id/editTextPassSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/emailpasswordborder"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="12dp"
+            android:ems="14"
+            android:fontFamily="@font/montserrat"
+            android:hint="@string/sifrenizi_giriniz"
+            android:textColorHint="#B7B6B6"
+            android:inputType="textPassword"
+            android:paddingStart="12dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="10dp"
+            android:textSize="17sp"/>
+
+        <EditText
+            android:textColor="@color/black"
+            android:id="@+id/editTextPassAgainSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/emailpasswordborder"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="12dp"
+            android:ems="14"
+            android:inputType="textPassword"
+            android:fontFamily="@font/montserrat"
+            android:hint="@string/sifrenizi_tekrar_giriniz"
+            android:textColorHint="#B7B6B6"
+            android:paddingStart="12dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="10dp"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Alacağınız derslerinizi seçiniz"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:fontFamily="@font/montserrat_bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingStart="38dp"
+                android:layout_weight="1">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mathCheckBox"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="18sp"
+                    android:text="Matematik"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edebiyatCheckBox"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="18sp"
+                    android:text="Edebiyat"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fizikCheckBox"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="18sp"
+                    android:text="Fizik"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingStart="38dp"
+                android:layout_weight="1">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/kimyaCheckBox"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="18sp"
+                    android:text="Kimya"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/biyolojiCheckBox"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="18sp"
+                    android:text="Biyoloji"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tarihCheckBox"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="18sp"
+                    android:text="Tarih"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/studentSignUpButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/girisyapselector"
+            android:ems="11"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/kayit_ol"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextSifreKayit2" />
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progressBarSignUp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:indeterminate="true"
+        android:translationZ="2dp"
+        android:elevation="10dp"
+        android:indeterminateTint="@color/black"
+        android:layout_gravity="center" />
+
+</FrameLayout>

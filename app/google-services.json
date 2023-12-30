@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "490570477590",
+    "project_id": "dersnotlarim-76b61",
+    "storage_bucket": "dersnotlarim-76b61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490570477590:android:cd00383177ec448a328537",
+        "android_client_info": {
+          "package_name": "com.ders.notlarim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490570477590-16mi6a7gvua8et3hfnj3v1otlptmitbh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTes9n18YcKQuEgJmO5ebZ0XX7xaGRDG8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490570477590-16mi6a7gvua8et3hfnj3v1otlptmitbh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

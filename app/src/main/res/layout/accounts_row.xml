@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:paddingHorizontal="7dp"
+    android:paddingVertical="10dp"
+    android:background="@drawable/stu_lessons_bg"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_baseline_person_24"/>
+
+    <TextView
+        android:id="@+id/userNameText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/montserrat_bold"
+        android:layout_marginHorizontal="10dp"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/deleteButton"
+        android:src="@drawable/ic_baseline_delete_forever_24"/>
+
+</LinearLayout>
